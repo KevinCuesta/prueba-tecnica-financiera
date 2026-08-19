@@ -1,4 +1,4 @@
-package com.pruebafinanciera.backend.enums;
+package com.pruebafinanciera.backend.service.enums;
 
 public enum TipoMovimiento {
     CREDITO,

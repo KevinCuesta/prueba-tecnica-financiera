@@ -1,4 +1,4 @@
-package com.pruebafinanciera.backend.entity;
+package com.pruebafinanciera.backend.service.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;

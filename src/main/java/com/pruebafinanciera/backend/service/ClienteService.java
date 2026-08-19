@@ -1,8 +1,8 @@
-package com.pruebafinanciera.backend.service;
+package com.pruebafinanciera.backend.service.service;
 
-import com.pruebafinanciera.backend.entity.Cliente;
-import com.pruebafinanciera.backend.repository.ClienteRepository;
-import com.pruebafinanciera.backend.repository.CuentaRepository;
+import com.pruebafinanciera.backend.service.entity.Cliente;
+import com.pruebafinanciera.backend.service.repository.ClienteRepository;
+import com.pruebafinanciera.backend.service.repository.CuentaRepository;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;

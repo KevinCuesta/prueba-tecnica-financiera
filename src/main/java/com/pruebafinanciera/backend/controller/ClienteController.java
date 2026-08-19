@@ -1,7 +1,7 @@
-package com.pruebafinanciera.backend.controller;
+package com.pruebafinanciera.backend.service.controller;
 
-import com.pruebafinanciera.backend.entity.Cliente;
-import com.pruebafinanciera.backend.service.ClienteService;
+import com.pruebafinanciera.backend.service.entity.Cliente;
+import com.pruebafinanciera.backend.service.service.ClienteService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

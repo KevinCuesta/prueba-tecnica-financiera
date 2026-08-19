@@ -1,12 +1,12 @@
-package com.pruebafinanciera.backend.service;
+package com.pruebafinanciera.backend.service.service;
 
-import com.pruebafinanciera.backend.dto.CrearCuentaRequest;
-import com.pruebafinanciera.backend.entity.Cliente;
-import com.pruebafinanciera.backend.entity.Cuenta;
-import com.pruebafinanciera.backend.enums.EstadoCuenta;
-import com.pruebafinanciera.backend.enums.TipoCuenta;
-import com.pruebafinanciera.backend.repository.ClienteRepository;
-import com.pruebafinanciera.backend.repository.CuentaRepository;
+import com.pruebafinanciera.backend.service.dto.CrearCuentaRequest;
+import com.pruebafinanciera.backend.service.entity.Cliente;
+import com.pruebafinanciera.backend.service.entity.Cuenta;
+import com.pruebafinanciera.backend.service.enums.EstadoCuenta;
+import com.pruebafinanciera.backend.service.enums.TipoCuenta;
+import com.pruebafinanciera.backend.service.repository.ClienteRepository;
+import com.pruebafinanciera.backend.service.repository.CuentaRepository;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;

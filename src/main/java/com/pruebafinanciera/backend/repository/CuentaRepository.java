@@ -1,6 +1,6 @@
-package com.pruebafinanciera.backend.repository;
+package com.pruebafinanciera.backend.service.repository;
 
-import com.pruebafinanciera.backend.entity.Cuenta;
+import com.pruebafinanciera.backend.service.entity.Cuenta;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

@@ -1,7 +1,7 @@
-package com.pruebafinanciera.backend.entity;
+package com.pruebafinanciera.backend.service.entity;
 
-import com.pruebafinanciera.backend.enums.EstadoCuenta;
-import com.pruebafinanciera.backend.enums.TipoCuenta;
+import com.pruebafinanciera.backend.service.enums.EstadoCuenta;
+import com.pruebafinanciera.backend.service.enums.TipoCuenta;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

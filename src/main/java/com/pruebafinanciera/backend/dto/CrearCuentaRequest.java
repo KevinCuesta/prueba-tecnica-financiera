@@ -1,6 +1,6 @@
-package com.pruebafinanciera.backend.dto;
+package com.pruebafinanciera.backend.service.dto;
 
-import com.pruebafinanciera.backend.enums.TipoCuenta;
+import com.pruebafinanciera.backend.service.enums.TipoCuenta;
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

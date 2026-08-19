@@ -1,8 +1,8 @@
-package com.pruebafinanciera.backend.controller;
+package com.pruebafinanciera.backend.service.controller;
 
-import com.pruebafinanciera.backend.dto.CrearCuentaRequest;
-import com.pruebafinanciera.backend.entity.Cuenta;
-import com.pruebafinanciera.backend.service.CuentaService;
+import com.pruebafinanciera.backend.service.dto.CrearCuentaRequest;
+import com.pruebafinanciera.backend.service.entity.Cuenta;
+import com.pruebafinanciera.backend.service.service.CuentaService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
